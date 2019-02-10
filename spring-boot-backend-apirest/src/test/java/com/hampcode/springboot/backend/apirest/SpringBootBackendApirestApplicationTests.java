@@ -1,4 +1,4 @@
-package com.bolsadeideas.springboot.backend.apirest;
+package com.hampcode.springboot.backend.apirest;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -5,13 +5,12 @@ import java.util.List;
 import com.hampcode.springboot.backend.apirest.models.entity.Cliente;
 
 public interface IClienteService {
-	
-	public List<Cliente> findAll();
-	
-	public void save(Cliente cliente);
-	
-	public Cliente findById(Long id);
-	
-	public void delete(Cliente cliente);
 
+	public List<Cliente> findAll();
+
+	public Cliente findById(Long id);
+
+	public Cliente save(Cliente cliente);
+
+	public void delete(Long id);
 }

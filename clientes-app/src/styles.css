@@ -3,3 +3,11 @@ html{
   position: relative;
   min-height: 100%
 }
+
+body{
+  margin-bottom: 60px;
+}
+
+.wrap{
+  padding-bottom: 60px;
+}
